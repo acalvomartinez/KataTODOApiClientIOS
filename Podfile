@@ -6,10 +6,9 @@ target 'KataTODOAPIClient' do
 end
 
 target 'KataTODOAPIClientTests' do
+    inherit! :search_paths
     pod 'Nocilla'
     pod 'OHHTTPStubs'
+    pod 'OHHTTPStubs/Swift'
     pod 'Nimble'
 end
-
-
-

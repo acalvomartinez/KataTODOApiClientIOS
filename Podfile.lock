@@ -2,22 +2,24 @@ PODS:
   - BothamNetworking (2.0.0):
     - Result
     - SwiftyJSON
-  - Nimble (6.0.1)
+  - Nimble (6.1.0)
   - Nocilla (0.11.0)
-  - OHHTTPStubs (5.2.3):
-    - OHHTTPStubs/Default (= 5.2.3)
-  - OHHTTPStubs/Core (5.2.3)
-  - OHHTTPStubs/Default (5.2.3):
+  - OHHTTPStubs (6.0.0):
+    - OHHTTPStubs/Default (= 6.0.0)
+  - OHHTTPStubs/Core (6.0.0)
+  - OHHTTPStubs/Default (6.0.0):
     - OHHTTPStubs/Core
     - OHHTTPStubs/JSON
     - OHHTTPStubs/NSURLSession
     - OHHTTPStubs/OHPathHelpers
-  - OHHTTPStubs/JSON (5.2.3):
+  - OHHTTPStubs/JSON (6.0.0):
     - OHHTTPStubs/Core
-  - OHHTTPStubs/NSURLSession (5.2.3):
+  - OHHTTPStubs/NSURLSession (6.0.0):
     - OHHTTPStubs/Core
-  - OHHTTPStubs/OHPathHelpers (5.2.3)
-  - Result (3.1.0)
+  - OHHTTPStubs/OHPathHelpers (6.0.0)
+  - OHHTTPStubs/Swift (6.0.0):
+    - OHHTTPStubs/Default
+  - Result (3.2.1)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
@@ -25,15 +27,16 @@ DEPENDENCIES:
   - Nimble
   - Nocilla
   - OHHTTPStubs
+  - OHHTTPStubs/Swift
 
 SPEC CHECKSUMS:
   BothamNetworking: ca91ad12113d8fae57aecec3a785008a81fcb22e
-  Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
+  Nimble: c53e6903fee94041b90ded74f135820437d8bf59
   Nocilla: 7af7a386071150cc8aa5da4da97d060f049dd61c
-  OHHTTPStubs: e238cd5b66d8efa51c861db45895de8fe079f4a7
-  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  OHHTTPStubs: 752f9b11fd810a15162d50f11c06ff94f8e012eb
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: a6e6d096f1ed47d1b843a5574b8f3a25e2805b5c
+PODFILE CHECKSUM: cc7d0953a3036b384e93ad854dd6b704bc7ff0ed
 
 COCOAPODS: 1.2.0
