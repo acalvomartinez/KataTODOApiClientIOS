@@ -7,6 +7,7 @@ end
 
 target 'KataTODOAPIClientTests' do
     pod 'Nocilla'
+    pod 'OHHTTPStubs'
     pod 'Nimble'
 end
 

@@ -7,20 +7,28 @@
 //
 
 import Foundation
-import Nocilla
+import OHHTTPStubs
 import Nimble
 import XCTest
 import Result
 @testable import KataTODOAPIClient
 
-class PostsAPIClientTests: NocillaTestCase {
+class PostsAPIClientTests: XCTestCase {
     
     fileprivate let apiClient = PostsAPIClient()
     
     func testParsesTasksProperlyGettingAllTheTasks() {
-        stubRequest("GET", "http://jsonplaceholder.typicode.com/posts")
-            .andReturn(200)?
-            .withBody(fromJsonFile("getPostsResponse"))
+        stub(condition: isHost("jsonplaceholder.typicode.com")) { request in
+            return OHHTTPStubsResponse(
+                fileAtPath: OHPathForFile("getPostsResponse.json", type(of: self))!,
+                statusCode: 200
+            )
+        }
+        
+//        
+//        stubRequest("GET", "http://jsonplaceholder.typicode.com/posts")
+//            .andReturn(200)?
+//            .withBody(fromJsonFile("getPostsResponse"))
         
         var result: Result<[PostDTO], PostsAPIClientError>?
         apiClient.getAllTasks { response in
