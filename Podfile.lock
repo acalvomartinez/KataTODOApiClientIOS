@@ -4,8 +4,6 @@ PODS:
     - SwiftyJSON
   - Nimble (6.1.0)
   - Nocilla (0.11.0)
-  - OHHTTPStubs (6.0.0):
-    - OHHTTPStubs/Default (= 6.0.0)
   - OHHTTPStubs/Core (6.0.0)
   - OHHTTPStubs/Default (6.0.0):
     - OHHTTPStubs/Core
@@ -26,7 +24,6 @@ DEPENDENCIES:
   - BothamNetworking
   - Nimble
   - Nocilla
-  - OHHTTPStubs
   - OHHTTPStubs/Swift
 
 SPEC CHECKSUMS:
@@ -37,6 +34,6 @@ SPEC CHECKSUMS:
   Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: cc7d0953a3036b384e93ad854dd6b704bc7ff0ed
+PODFILE CHECKSUM: 4c599bcc23c7d9d3b74a03f3534ac8697a3871db
 
 COCOAPODS: 1.2.0

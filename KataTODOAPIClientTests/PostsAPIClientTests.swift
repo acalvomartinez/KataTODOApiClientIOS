@@ -7,9 +7,9 @@
 //
 
 import Foundation
-import OHHTTPStubs
-import Nimble
 import XCTest
+import Nimble
+import OHHTTPStubs
 import Result
 @testable import KataTODOAPIClient
 
